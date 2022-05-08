@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px">
   <style>
     path {
-      fill: #000;
+      fill: #444;
     }
     @media (prefers-color-scheme: dark) {
       path {
