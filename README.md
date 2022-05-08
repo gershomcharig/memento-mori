@@ -1,2 +1,3 @@
-# memento-mori
-An app that visualises the amount of time you have lived and how much is left.
+# Memento Mori
+
+A simple app that visualises how much time of your life you have already lived and how much you still have to live.
