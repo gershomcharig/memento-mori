@@ -1,4 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: monospace;
+  margin: 1rem;
+  background-color: #f7f7f7;
   color: #444;
+  text-align: center;
+  font-family: "iA Writer Duo S";
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(52, 1fr);
+  grid-template-rows: repeat(90, 1fr);
+  grid-column-gap: 0.25rem;
+  grid-row-gap: 0.25rem;
+}
+
+.calendar--cell {
+  height: 0.5rem;
+  background-color: #eee;
+  border: #ccc solid 1px;
+}
+
+.filled {
+  background-color: #444;
+  border: none;
 }
