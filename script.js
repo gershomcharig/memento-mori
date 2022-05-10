@@ -29,8 +29,8 @@ labelDateOfBirth.textContent = `${new Intl.DateTimeFormat("en-GB", { dateStyle: 
 labelYearsLived.textContent = `${yearsLived.toFixed(1)} (${yearsLivedPerc.toFixed(1)}%)`;
 labelYearsRemaining.textContent = `${yearsRemaining.toFixed(1)} (${yearsRemainingPerc.toFixed(1)}%)`;
 
-for (let i = 0; i < 52 * lifeExpectancy; i++) {
+for (let i = 0; i < lifeExpectancy * 52; i++) {
   i <= yearsLived * 52
-    ? calendar.insertAdjacentHTML("beforeend", `<div class="calendar--cell filled"></div>`)
-    : calendar.insertAdjacentHTML("beforeend", `<div class="calendar--cell"></div>`);
+    ? calendar.insertAdjacentHTML("beforeend", `<div class="week filled"></div>`)
+    : calendar.insertAdjacentHTML("beforeend", `<div class="week"></div>`);
 }
